@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headline {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.subheader {
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+}
+#neuro{
+    width:55%;
+}
+
+.intro {
+    background-color: bisque;
+    padding: 30px;
+
+}
+.main-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightcoral;
+    margin: 20px;
+}
+.bald-idea {
+    font-weight: 900;
+    margin: 20px;
+}
+.text-more {
+    background-color: rgb(222, 215, 207);
+    font-weight: 800;
+    color: rgb(76, 55, 96);
+
+}
+.idea {
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(66, 9, 9);
+
+}
+.footer-element {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.intro, .main-text, .bald-idea{
+    margin-left: 30px;
+}
