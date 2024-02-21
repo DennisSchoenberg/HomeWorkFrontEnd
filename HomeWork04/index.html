@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПИСЬМО САНТЕ</title>
+    <style>
+        label{
+            color:rgb(241, 234, 234);
+        }
+    </style>
+    <h1 style="color: rgb(10, 214, 91);">Письмо Фуфелу Клаусу</h1>
+    <p></p>
+</head>
+
+<body>
+    <div>
+        <h2 style="color: bisque;">Дорогой друг , не стесняйся и раскажи псевдо-деду-морозу кто он по жизни.</h2>
+        <p></p>
+    </div>
+    <form method="get" id="contact-form">
+        <div>
+            
+            <label>
+                
+               
+               <input type="Login" name="login" placeholder="Логин">
+               <p></p>
+            </label>
+        </div>
+        <div>
+            <label>
+                
+                <input required type="Password" name="Password" 
+                placeholder="Пароль">
+                <p></p>
+            </label>
+        </div>
+        <div>
+            <label>
+                
+                <input required type="Name" name="Name" 
+                placeholder="Имя">
+                <p></p>
+            </label>
+        </div>
+        <div>
+            <h3 style="color: rgb(206, 206, 215);">Пол:</h3>
+            <div style="display: flex;">
+                <div style="margin-right: 10px;">
+                    <input id="boy" type="radio" name="gender">
+                    <label for="boy">Мальчик</label>
+                </div>
+                <div>
+                    <input id="girl" type="radio" name="gender">
+                    <label for="girl">Девочка</label>
+                </div>
+                <p></p>
+            </div>
+        </div>
+
+         <div>
+            <h3 style="color: aqua;">День рождения</h3>
+            <input type="date" id="birth-date" name="birth-date">
+            <label for="birth-date"></label>
+            <p></p>
+        </div>
+
+       
+
+<select id="cities">
+    <option value="saint_petersburg">Санкт-Петербург</option>
+    <option value="moscow">Москва</option>
+    <option value="novosibirsk">Новосибирск</option>
+    <option value="ekaterinburg">Екатеринбург</option>
+    
+  
+</select>
+
+<div id="selectedCity"></div>
+
+<p></p>
+        <div>
+            <h4 style="color: beige;">Выбери цвет своей новой бутылки</h4>
+            
+            <input type="color" name="color1" id="favorite-color">
+            <label for="favorite-color1">Пробка</label>
+        </div>
+        <div>
+            
+            <input type="color" name="color2" id="favorite-color2">
+            <label for="favorite-color2">Цвет стекла</label>
+        </div>
+
+        <div>
+            <h3 style="color: rgb(206, 206, 215);">Обещай что булешь максимально раздражать своих родителей</h3>
+            <div style="display: flex;">
+                <div style="margin-right: 10px;">
+                    <input id="yes" type="radio" name="choice1">
+                    <label for="yes">ДА</label>
+                </div>
+                <div>
+                    <input id="no" type="radio" name="choice2">
+                    <label for="no">НЕТ</label>
+                </div>
+                <p></p>
+            </div>
+        </div>
+        
+        <div>
+            <p>
+            </p>
+            <button type="submit">Отправить письмо Фуфелу</button>
+            
+        </div>
+
+    </form>
+    
+</body>
+</html>
